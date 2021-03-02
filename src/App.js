@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <Link to="/friend-list">
-        <div className="App-textbox-back" onClick={onSend}>Back</div>
+      <div className="App-textbox-back" onClick={onSend}>BACK</div>
       </Link>
       <div className="App-header">
         REACT CHAT
