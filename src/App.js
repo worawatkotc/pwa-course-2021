@@ -24,13 +24,11 @@ function App() {
 
   return (
     <div className="App">
+      <Link to="/friend-list">
+        <div className="App-textbox-back" onClick={onSend}>Back</div>
+      </Link>
       <div className="App-header">
         REACT CHAT
-        <Link to="/friend-list">
-            <button>
-                BACK
-            </button>
-        </Link>
       </div>
       <div className="App-chatroom">
         {
